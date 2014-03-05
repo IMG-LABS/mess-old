@@ -1,6 +1,6 @@
 students
 
-| sno | enrollment | fname | lname | year | branch | degree | joining year | passed out | balance | timestamp |
+| sno | enrollment | fname | lname | branch | degree | joining year | passed out | balance | timestamp |
 
 rebate
 
@@ -9,4 +9,3 @@ rebate
 students account
 
 | sno | enrollment | type | amount ! balance | reference id ! timestamp ! comments !
-
