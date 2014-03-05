@@ -1,0 +1,12 @@
+students
+
+| sno | enrollment | fname | lname | year | branch | degree | joining year | passed out | balance | timestamp |
+
+rebate
+
+| sno | enrollment ! starting date | ending date | no. of days | timestamp |
+
+students account
+
+| sno | enrollment | type | amount ! balance | reference id ! timestamp ! comments !
+
