@@ -1,14 +1,31 @@
-students
+Database Name : General
+	students
 
-| sno | enrollment | fname | lname | branch | degree | joining year | passed out | balance | timestamp |
+	| sno | enrollment | fname | lname | branch | degree | joining year | passed out | balance | timestamp |
 
-rebate
+	Employees
+	| sno | employee id | fname | lname | type (permanent/temp) | current salary | timestamp |
 
-| sno | enrollment ! starting date | ending date | no. of days | timestamp |
 
-students account
+Database Name : FY_<year>
 
-| sno | enrollment | type | amount ! balance | reference id ! timestamp ! comments !
+	rebate
 
-Employees
-| sno | employee id | fname | lname | type (permanent/temp) | current salary | timestamp
+	| sno | enrollment ! starting date | ending date | no. of days | timestamp |
+
+	students account
+
+	| sno | enrollment | type | amount ! balance | reference id ! timestamp ! comments !
+
+
+	Receipts
+	| sno | enrollment | name | date | type | amount | reference id | comments | timestamps |
+
+		--Cash/Credit Sale
+		| sno | enrollment | name | date | amount | type | reference id | comments | timestamp | 
+
+		--Coupon Sale
+		| sno | date | coupon | price | quantity |
+
+	Payments
+	| sno | name | bill number | voucher number |
