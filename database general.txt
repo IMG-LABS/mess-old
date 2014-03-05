@@ -9,3 +9,6 @@ rebate
 students account
 
 | sno | enrollment | type | amount ! balance | reference id ! timestamp ! comments !
+
+Employees
+| sno | employee id | fname | lname | type (permanent/temp) | current salary | timestamp
