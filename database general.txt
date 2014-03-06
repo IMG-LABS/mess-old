@@ -7,7 +7,7 @@ Database Name : General
 	| sno | employee id | fname | lname | type (permanent/temp) | current salary | timestamp |
 
 
-Database Name : FY_<year>
+Database Name : FY<year>
 
 	rebate
 
