@@ -1,27 +1,50 @@
 Database Name : General
-	students
+	students:
 
-	| sno | enrollment | fname | lname | branch | degree | joining year | passed out | balance | timestamp |
+	| sno | enrollment | fname | lname | branch | degree | joining year | passed out | balance | caution deposite | semister | joining date | timestamp |
 
-	Employees
+	Employees:
+
 	| sno | employee id | fname | lname | type (permanent/temp) | current salary | timestamp |
 
+	Vendors:
+
+	| sno | vendor ID | Vendor name | address | Contact No. | timestamp |
+
+	Bank Accounts:
+
+	| sno | account ID | Account Name | bank name | account number | bank details | balance | timestamp |
 
 Database Name : FY<year>
+	monthly bills:
 
-	rebate
+	| sno | month | semister | basic bill | overheads | timestamp |
+
+	rebate:
 
 	| sno | enrollment ! starting date | ending date | no. of days | timestamp |
 
-	students account
+	student payments:
 
-	| sno | enrollment | type | amount ! balance | reference id ! timestamp ! comments !
+	| sno | enrollment | type | amount | reference id | timestamp | comments |
+
+	cash at bank
+
+	| sno | transaction ID | account ID | type | amount | reference ID | cheque no | cashed | comments | timestamp |
+
+	cash in hand
+
+	| sno | reference ID | type | amount | 
 
 
-	Receipts
+
+
+
+
+	Rceipts
 	| sno | enrollment | name | date | type | amount | reference id | comments | timestamps |
 
-		--Cash/Credit Sale
+		--Cash
 		| sno | enrollment | name | date | amount | type | reference id | comments | timestamp | 
 
 		--Coupon Sale
