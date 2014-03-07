@@ -15,6 +15,10 @@ Database Name : General
 
 	| sno | account ID | Account Name | bank name | account number | bank details | balance | timestamp |
 
+	accounts (overheads)
+
+	| sno | account ID | name | balance | timestamp |
+
 Database Name : FY<year>
 	monthly bills:
 
@@ -34,21 +38,38 @@ Database Name : FY<year>
 
 	cash in hand
 
-	| sno | reference ID | type | amount | 
+	| sno | reference ID | type | amount | balance | comments | timestamp |
 
+	recipts
 
-
-
-
-
-	Rceipts
-	| sno | enrollment | name | date | type | amount | reference id | comments | timestamps |
-
-		--Cash
-		| sno | enrollment | name | date | amount | type | reference id | comments | timestamp | 
-
-		--Coupon Sale
-		| sno | date | coupon | price | quantity |
+	| sno | receipt no | party | amount | type | comments | date | timestamp |
 
 	Payments
-	| sno | name | bill number | voucher number |
+
+	| sno | vocher no | vendor ID | type | cheque no | ref ID | amount | date | comments | timestamp |
+
+	guests
+
+	| sno | receipt no | details | amount | payment Received | date | timestamp |
+
+	free messing
+
+	| sno | enroll | semisters | timestamp |
+
+	account statement
+
+	| sno | transaction ID | type | account ID | details | amount | balance | timestamp |
+
+	salary
+
+	// to be done
+
+Database Name : stock
+	
+	items:
+
+	| sno | item id | item name | measuring unit | qty | balance | timestamp |
+
+	item ID:
+
+	| sno | type | qty | cost per uint | total cost | used qty | comments | timestamp |
