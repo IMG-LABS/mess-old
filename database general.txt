@@ -19,14 +19,14 @@ Database Name : General
 
 	| sno | account ID | name | balance | timestamp |
 
+	rebate:
+
+	| sno | enrollment | starting date | ending date | no. of days | timestamp |
+
 Database Name : FY<year>
 	monthly bills:
 
 	| sno | month | semister | basic bill | overheads | timestamp |
-
-	rebate:
-
-	| sno | enrollment ! starting date | ending date | no. of days | timestamp |
 
 	student payments:
 
@@ -72,4 +72,4 @@ Database Name : stock
 
 	item ID:
 
-	| sno | type | qty | cost per uint | total cost | used qty | comments | timestamp |
+	| sno | type | qty | cost per uint | total cost | date | used qty | comments | timestamp |
