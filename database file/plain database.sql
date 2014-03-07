@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 07, 2014 at 01:40 PM
+-- Generation Time: Mar 07, 2014 at 02:40 PM
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.12
 
@@ -292,16 +292,13 @@ CREATE TABLE IF NOT EXISTS `students` (
 
 CREATE TABLE IF NOT EXISTS `vendors` (
   `sno` int(11) NOT NULL AUTO_INCREMENT,
-  `vendor_id` varchar(11) NOT NULL,
+  `vendor_id` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `address` varchar(255) DEFAULT NULL,
-  `contact_no` varchar(20) DEFAULT NULL,
+  `address` varchar(255) NOT NULL,
+  `contact_no` varchar(255) NOT NULL,
   `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`sno`),
-  UNIQUE KEY `vendor_id` (`vendor_id`),
-  FULLTEXT KEY `vendor_id_2` (`vendor_id`),
-  FULLTEXT KEY `address` (`address`),
-  FULLTEXT KEY `contact_no` (`contact_no`)
+  UNIQUE KEY `vendor_id` (`vendor_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 --
 -- Database: `mess_stock`
