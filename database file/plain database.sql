@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 07, 2014 at 02:40 PM
+-- Generation Time: Mar 10, 2014 at 04:51 AM
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.12
 
@@ -29,6 +29,25 @@ USE `mess_fy13`;
 --
 
 CREATE TABLE IF NOT EXISTS `accounts` (
+  `sno` int(11) NOT NULL AUTO_INCREMENT,
+  `transaction_id` varchar(255) NOT NULL,
+  `type` varchar(255) NOT NULL,
+  `account_id` varchar(255) NOT NULL,
+  `details` varchar(255) NOT NULL,
+  `amount` int(11) NOT NULL,
+  `balance` int(11) NOT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`sno`),
+  UNIQUE KEY `transaction_id` (`transaction_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `bank_transactions`
+--
+
+CREATE TABLE IF NOT EXISTS `bank_transactions` (
   `sno` int(11) NOT NULL AUTO_INCREMENT,
   `transaction_id` varchar(255) NOT NULL,
   `type` varchar(255) NOT NULL,
@@ -84,12 +103,27 @@ CREATE TABLE IF NOT EXISTS `cash_in_bank` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `free_messing`
+--
+
+CREATE TABLE IF NOT EXISTS `free_messing` (
+  `sno` int(11) NOT NULL AUTO_INCREMENT,
+  `enrollment` varchar(255) NOT NULL,
+  `semister` varchar(255) NOT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`sno`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `guests`
 --
 
 CREATE TABLE IF NOT EXISTS `guests` (
   `sno` int(11) NOT NULL AUTO_INCREMENT,
   `receipt_no` varchar(255) NOT NULL,
+  `type` varchar(30) NOT NULL COMMENT 'student/institute',
   `details` varchar(255) NOT NULL,
   `amount` int(11) NOT NULL,
   `payment` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'received',
