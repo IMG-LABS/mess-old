@@ -2,3 +2,4 @@ D:\Projects\Mess\Mess_Library\Mess\Mess\bin\Debug\Mess.dll
 D:\Projects\Mess\Mess_Library\Mess\Mess\bin\Debug\Mess.pdb
 D:\Projects\Mess\Mess_Library\Mess\Mess\obj\Debug\Mess.dll
 D:\Projects\Mess\Mess_Library\Mess\Mess\obj\Debug\Mess.pdb
+D:\Projects\Mess\Mess_Library\Mess\Mess\obj\Debug\Mess.csprojResolveAssemblyReference.cache
