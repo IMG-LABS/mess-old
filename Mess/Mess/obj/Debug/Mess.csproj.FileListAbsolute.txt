@@ -11,3 +11,6 @@ D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.csproj.GenerateResource.Cache
 D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.pdb
 D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.AccountsMain.resources
 D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.StockMain.resources
+E:\Mess\Mess\Mess\bin\Debug\Mess.exe.config
+E:\Mess\Mess\Mess\obj\Debug\Mess.exe
+E:\Mess\Mess\Mess\obj\Debug\Mess.pdb
