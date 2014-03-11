@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Security.Cryptography;
 using MySql.Data;
 using MySql.Data.MySqlClient;
+using System.Security.Cryptography;
 
-namespace Mess
+namespace MessLibrary
 {
     /*
      * 
@@ -23,7 +23,7 @@ namespace Mess
     /// 
     /// </summary>
     
-    class users
+    public class users
     {
         public string message;
         public string post;
@@ -50,11 +50,13 @@ namespace Mess
             MySqlDataReader dr = con.reader(query);
             if (dr.Read())
             {
+                message = "read";
                 if (password == dr[0].ToString())
                 {
                     message = "sucess";
-                    con.closeConnection();
                     post = dr[1].ToString();
+                    con.closeConnection();
+                    
                 }
                 else
                 {
@@ -63,7 +65,7 @@ namespace Mess
             }
             else
             {
-                message = "error"; 
+                message = "error";
             }
             con.closeConnection();
         }

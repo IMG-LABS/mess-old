@@ -1,0 +1,10 @@
+C:\Users\Rajas\Desktop\MessLibrary\MessLibrary\obj\Debug\MessLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Rajas\Desktop\MessLibrary\MessLibrary\bin\Debug\MessLibrary.dll
+C:\Users\Rajas\Desktop\MessLibrary\MessLibrary\bin\Debug\MessLibrary.pdb
+C:\Users\Rajas\Desktop\MessLibrary\MessLibrary\obj\Debug\MessLibrary.dll
+C:\Users\Rajas\Desktop\MessLibrary\MessLibrary\obj\Debug\MessLibrary.pdb
+D:\Projects\Mess\MessLibrary\MessLibrary\bin\Debug\MessLibrary.dll
+D:\Projects\Mess\MessLibrary\MessLibrary\bin\Debug\MessLibrary.pdb
+D:\Projects\Mess\MessLibrary\MessLibrary\obj\Debug\MessLibrary.csprojResolveAssemblyReference.cache
+D:\Projects\Mess\MessLibrary\MessLibrary\obj\Debug\MessLibrary.dll
+D:\Projects\Mess\MessLibrary\MessLibrary\obj\Debug\MessLibrary.pdb

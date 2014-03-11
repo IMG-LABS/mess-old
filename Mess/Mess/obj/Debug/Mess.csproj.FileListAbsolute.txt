@@ -1,9 +1,11 @@
 D:\Projects\Mess\Mess\Mess\bin\Debug\Mess.exe.config
+D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.exe
 D:\Projects\Mess\Mess\Mess\bin\Debug\Mess.exe
 D:\Projects\Mess\Mess\Mess\bin\Debug\Mess.pdb
+D:\Projects\Mess\Mess\Mess\bin\Debug\MessLibrary.dll
+D:\Projects\Mess\Mess\Mess\bin\Debug\MessLibrary.pdb
 D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.csprojResolveAssemblyReference.cache
 D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.login.resources
 D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.Properties.Resources.resources
 D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.csproj.GenerateResource.Cache
-D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.exe
 D:\Projects\Mess\Mess\Mess\obj\Debug\Mess.pdb

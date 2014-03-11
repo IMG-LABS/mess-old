@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 
-namespace Mess
+namespace MessLibrary
 {
     /*
      * 
@@ -38,6 +38,7 @@ namespace Mess
             try
             {
                 command.ExecuteNonQuery();
+                message = "Sucess";
             }
             catch (Exception e)
             {

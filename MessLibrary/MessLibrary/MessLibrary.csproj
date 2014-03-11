@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0ECE189B-3E0C-4544-B970-7CEA4B6C2AE9}</ProjectGuid>
+    <ProjectGuid>{4EFAB984-4145-4A7C-8CE5-FADA297E4ED3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mess</RootNamespace>
-    <AssemblyName>Mess</AssemblyName>
+    <RootNamespace>MessLibrary</RootNamespace>
+    <AssemblyName>MessLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,9 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="users.cs" />
     <Compile Include="connect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="users.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
