@@ -51,7 +51,16 @@ namespace Mess
                 users user = new users(textBox1.Text, textBox2.Text);
                 if(user.message == "sucess")
                 {
-                    MessageBox.Show(user.post);
+                    if(user.post == "accounts")
+                    {
+                        Form accounts = new AccountsMain();
+                        accounts.ShowDialog();
+                    } 
+                    else if(user.post == "store")
+                    {
+                        Form stock = new StockMain();
+                        stock.ShowDialog();
+                    }
                 }
                 else
                 {
