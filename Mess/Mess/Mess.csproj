@@ -54,6 +54,12 @@
     <Compile Include="AccountsMain.Designer.cs">
       <DependentUpon>AccountsMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudents.Designer.cs">
+      <DependentUpon>AddStudents.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
