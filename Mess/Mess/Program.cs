@@ -17,8 +17,8 @@ namespace Mess
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new login());
-           // Application.Run(new AccountsMain());
+            //Application.Run(new login());
+            Application.Run(new AccountsMain());
            // Application.Run(new StockMain());
         }
     }
