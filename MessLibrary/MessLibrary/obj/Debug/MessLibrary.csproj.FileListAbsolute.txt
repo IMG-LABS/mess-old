@@ -8,3 +8,8 @@ D:\Projects\Mess\MessLibrary\MessLibrary\bin\Debug\MessLibrary.pdb
 D:\Projects\Mess\MessLibrary\MessLibrary\obj\Debug\MessLibrary.csprojResolveAssemblyReference.cache
 D:\Projects\Mess\MessLibrary\MessLibrary\obj\Debug\MessLibrary.dll
 D:\Projects\Mess\MessLibrary\MessLibrary\obj\Debug\MessLibrary.pdb
+E:\Project Work\Mess\MessLibrary\MessLibrary\bin\Debug\MessLibrary.dll
+E:\Project Work\Mess\MessLibrary\MessLibrary\bin\Debug\MessLibrary.pdb
+E:\Project Work\Mess\MessLibrary\MessLibrary\obj\Debug\MessLibrary.csprojResolveAssemblyReference.cache
+E:\Project Work\Mess\MessLibrary\MessLibrary\obj\Debug\MessLibrary.dll
+E:\Project Work\Mess\MessLibrary\MessLibrary\obj\Debug\MessLibrary.pdb
